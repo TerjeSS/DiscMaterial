@@ -1,8 +1,7 @@
 .nav-wrapper{
-    background-color: brown;
     width: 100%;
     height: 3rem;
-    position: fixed;
+    top: 0;
 }
 .nav-wrapper  ul{
     margin: 0;

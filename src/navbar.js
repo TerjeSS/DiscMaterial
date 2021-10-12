@@ -1,17 +1,17 @@
-import React from 'react'
+import * as React from 'react'
 import './css/navbar.css'
+import Button from '@mui/material/Button';
+
 
 function navbar() {
     return (
-        <>
             <div className="nav-wrapper">
                 <ul>
-                    <li><button>Home</button></li>
-                    <li><button>About</button></li>
-                    <li><button>Contact</button></li>
+                    <li><Button variant="text">Home</Button></li>
+                    <li><Button variant="contained">About</Button></li>
+                    <li><Button variant="outline">Contact</Button></li>
                 </ul>
             </div>
-        </>
     )
 }
 
